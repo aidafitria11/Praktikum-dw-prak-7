@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Alynilk Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    </div>
+</body>
+
+        <h1 class="text-4xl font-bold text-center text-pink-500 mb-8">Alynilk Library 🐚🫧🌷🫧</h1>
+        
+        <div id="session-container" class="mb-8 flex flex-col items-center">
+            <input type="text" id="namaPengguna" placeholder="Masukkan Nama" class="mb-4 p-2 border border-gray-300 rounded-lg w-64" />
+            <button id="btnSimpanNama" class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600">Simpan Nama</button>
+            <h3 id="salamPengguna" class="text-lg mt-4 text-pink-500 font-semibold"></h3>
+        </div>
+
+        
+        <form id="form-tambah-buku" class="flex flex-col items-center mb-8 space-y-4">
+            <input type="text" id="judul" placeholder="Judul Buku" required class="p-2 border border-gray-300 rounded-lg w-64" />
+            <input type="text" id="penulis" placeholder="Nama Penulis" required class="p-2 border border-gray-300 rounded-lg w-64" />
+            <input type="number" id="tahun" placeholder="Tahun Terbit" required class="p-2 border border-gray-300 rounded-lg w-64" />
+            <button type="submit" class="bg-pink-500 text-white px-4 py-2 rounded-lg hover:bg-pink-600">Tambah Buku</button>
+        </form>
+
+        
+        <h2 class="text-2xl font-bold text-pink-500 mb-4">Daftar Buku</h2>
+        <div id="daftar-buku" class="p-5 border-2 border-gray-300 rounded-lg bg-white shadow mb-8"></div> 
+
+        <h2 class="text-2xl font-bold text-pink-500 mb-4">Buku Favorit</h2>
+        <div id="daftar-favorit" class="p-5 border-2 border-gray-300 rounded-lg bg-white shadow"></div>
+    </div>
+
+    <script src="alinn.js"></script>
+</body>
+</html>
